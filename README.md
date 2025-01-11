@@ -35,7 +35,7 @@ print(f'{b.grad:.4f}') # prints 117.3345, i.e. the numerical value of dg/db
 The notebook `demo.ipynb` provides a process of training a multilayer perceptron binary classifier. Used 2-layer neural net with 16 neurons each layer, MSE loss and stochastic gradient descent(SGD) for updating parameters. Classification result: 
 
 
-![Classification result](reslut.jpg)
+![RESULT](result.jpg)
 
 
 ## License 
