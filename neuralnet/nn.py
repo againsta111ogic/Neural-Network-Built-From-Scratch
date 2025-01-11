@@ -1,5 +1,5 @@
 import random
-from engine import Value
+from neuralnet.engine import Value
 
 
 class Neuron:
@@ -30,7 +30,7 @@ class Layer:
         return [p for neuron in self.neurons for p in neuron.parameters()]
 
 
-# Multilayer perceptron
+# Multilayer perceptron, nin - number of features, nouts - number of neurons on each layer
 class MLP:
 
     def __init__(self, nin, nouts):
